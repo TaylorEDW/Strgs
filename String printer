@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char str1[100], str2[100];
+
+    printf("Digite a primeira string: ");
+    scanf("%s", str1);
+
+    printf("Digite a segunda string: ");
+    scanf("%s", str2);
+
+    printf("Segunda letra da primeira string: %c\n", str1[1]);
+    printf("Segunda letra da segunda string: %c\n", str2[1]);
+
+    return 0;
+}
